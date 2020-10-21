@@ -2,7 +2,7 @@
 
 **Gif Generator is just some fun using the Giphy API.**
 
-My aim was to create an app, that would use Axios for my HTTP requests and response management. I also wanted to build this app with just use Hooks, and used a custom hook file to simplify my components 😅
+My aim was to create an app, that would use Axios for my HTTP requests and response management. I also wanted to build this app with just using Hooks, and implement acustom hook to simplify my components 😅
 
 **This app currently uses**
 

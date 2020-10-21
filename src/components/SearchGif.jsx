@@ -3,18 +3,16 @@ import useFetch from '../useFetch'
 
 
 const SearchGif = () => {
-    const [tag, setTag] = useState('random')
+    const [tag, setTag] = useState('Dogs')
     const {gif, rating, api_fetch} = useFetch(tag)
 
     return (
-        <div>
             <div className="container" >
-            <h1>{tag} Gif Rated: {rating}</h1>  
+            <h2>This GIF about {tag}</h2>
+            <h2>is Rated {rating}</h2>
             <img width="500" src={gif} alt="random gif" />
             <input value={tag} onChange={(e) => setTag(e.target.value)} ></input>
-            <h1>Rating: {rating} </h1>
             <button onClick={() => api_fetch(tag)} >New {tag} Gif</button>
-        </div>
         </div>
     )
 }

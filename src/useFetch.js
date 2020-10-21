@@ -9,7 +9,7 @@ const useFetch = (tag) => {
     const [rating, setRating] = useState('')
 
     const api_fetch = async (tag) => {
-        const { data } = await axios.get(tag ? `${url}$tag=${tag}` : url)
+        const { data } = await axios.get(tag ? `${url}&tag=${tag}` : url)
         const {rating} = data.data
         const res = data.data.images.downsized_large.url
         setRating(rating)

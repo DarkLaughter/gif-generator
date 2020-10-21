@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-image: url("https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_960_720.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -9,19 +11,26 @@ body {
 h1 {
   text-transform: uppercase;
   font-size: 26px;
-  margin: 20px;
+  margin: 0;
   background-color: rgba(250, 250, 250, 0.5);
-  padding: 15px;
-  border-radius: 20px;
+  padding: 20px;
   color: black;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 26px;
+  margin: 0;
+  padding: 20px;
+  color: white;
 }
 
 .main-container {
   width: 100%;
   display: flex;
-  align-items: space-between;
+  align-items: center;
   flex-direction: row;
-  height: 90vh;
+  height: 70vh;
   justify-content: center;
 }
 
@@ -30,28 +39,27 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  height: 60%;
+  width: 60%;
   border-radius: 20px;
-  color: black;
 }
 
 input {
   margin-top: 20px;
-  border-radius: 50px;
+  border-radius: 10px;
   letter-spacing: 0.7px;
-  width: 200px;
+  width: 400px;
   font-size: large;
   outline: none;
   text-align: center;
 }
 
 button {
-  margin: 20px 0;
-  text-decoration: none;
+  margin-top: 25px;
   outline: none;
   cursor: pointer;
   text-transform: uppercase;
-  border-radius: 50px;
+  border-radius: 10px;
   width: 200px;
   font-size: large;
   letter-spacing: 0.7px;
