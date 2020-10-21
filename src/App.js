@@ -15,7 +15,7 @@ const App = () => {
     return (
         <div>
             <h1>
-            Click on for New Gifs or to Search</h1>
+            Click for New Gifs or to Search</h1>
             {search ? randomButton : searchButton}
             <div className="main-container">
                 {search ? <SearchGif/> : <RandomGif/>}
