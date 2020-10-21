@@ -1,6 +1,6 @@
-Greetings Programs
+## Greetings Programs
 
-Gif Generator is just some fun using the Giphy API.
+**Gif Generator is just some fun using the Giphy API.**
 
 My aim was to create an app, that would use Axios for my HTTP requests and response management. I also wanted to build this app with just use Hooks, and used a custom hook file to simplify my components 😅
 
@@ -17,3 +17,5 @@ My aim was to create an app, that would use Axios for my HTTP requests and respo
 - Users will instantly see a random gif, and be able to generate new gifs.
 - Users can also use a search function to generate a random gif linked to that keyword
 - Users will also be able to see the current Rating for the Gif, in case they are interested
+
+![](https://media.giphy.com/media/l0MYwrucQ9amOkFHO/giphy.gif)
