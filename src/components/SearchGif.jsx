@@ -3,7 +3,7 @@ import useFetch from '../useFetch'
 
 
 const SearchGif = () => {
-    const [tag, setTag] = useState('Dogs')
+    const [tag, setTag] = useState('llamas')
     const {gif, rating, api_fetch} = useFetch(tag)
 
     return (
