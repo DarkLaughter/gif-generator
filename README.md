@@ -18,6 +18,6 @@ My aim was to create an app, that would use Axios for my HTTP requests and respo
 - Users can also use a search function to generate a random gif linked to that keyword
 - Users will also be able to see the current Rating for the Gif, in case they are interested
 
-Available to try at [GIF Generator Demo Link](randomgif.netlify.app) 😄
+Available to try at [GIF Generator](http://www.randomgif.netlify.app) 😄
 
 ![](https://media.giphy.com/media/l0MYwrucQ9amOkFHO/giphy.gif)
